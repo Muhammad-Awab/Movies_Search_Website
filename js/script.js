@@ -1,6 +1,6 @@
 $(document).ready(function() {
     const API_KEY = 'e1eefa54';
-    const API_URL = 'http://www.omdbapi.com/';
+    const API_URL = 'https://www.omdbapi.com/';
     let currentPage = 1;
 
     $('#search-form').submit(function(e) {
